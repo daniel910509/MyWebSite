@@ -1,0 +1,130 @@
+.caja{
+	background: white;
+	color: black;
+	float: left;
+	width: 498px;
+	height: 600px;
+	text-align: center;
+	border: 1px solid #E2E2E2;
+	border-radius: 10px;
+
+}
+
+.contenedor{
+	background: white;
+	width: 1000px;
+	height: 600px;
+	margin:auto;
+}
+
+
+
+#contenido{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+}
+
+h1{
+
+	font-family: 'Ubuntu Condensed', sans-serif;
+	margin-left: 10px;
+	font-size: 60px;
+	text-align: center;
+	color: white;
+}
+
+h2{
+	font-family: 'Ubuntu Condensed', sans-serif;
+	margin-left: 10px;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+
+}
+
+h3{
+	font-family: 'helvetica';
+	margin-left: 10px;
+	font-size: 20px;
+	text-align: center;
+	
+
+
+}
+header{
+
+	width: 1000px;
+	height: 120px;
+	background: green;
+	box-shadow: 0 0 10px white inset;
+	border-radius: 10px;
+}
+
+nav{
+	width: 1000px;
+	height: 50px;
+	background: orange;
+	border-radius: 10px
+
+	}
+
+ul{
+	margin: auto;
+	padding-top: 4px;
+	position: relative;
+	left: 60%;
+}
+
+li{
+	
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+	background: rgba(255,255,255,0,5);
+	margin:3px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px white inset;
+	position: relative;
+	right: 50%;
+
+}
+
+footer{
+	width: 1000px;
+	height: 100px;
+	background: green;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	position: relative;
+	left:13%;
+
+}
+
+
+/*CLASES*/
+
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970px;}
+
+.menu:link{padding: 7px;color: white; text-decoration: none;}
+.menu:visited{padding: 7px; color: white; text-decoration: none;}
+.menu:hover{padding: 7px; color: white; text-decoration: none; text-shadow: 0 0 5px white;}
+.menu:active{padding: 7px; color: white; text-decoration: none;}
+
+p.foot{
+	font-size: 14px;
+	font-weight: bolder;
+	line-height: 24px;
+	padding: 10px;
+	text-align: center;
+	color: white;
+
+}
+
+img.small{
+	width: 300px;
+	height: 200px;
+}
